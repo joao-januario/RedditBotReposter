@@ -1,6 +1,6 @@
 Installation instructions:
 
-On a command line type pip install praw
+After installing python 3.0 or above , on a command line type pip install praw.
 
 If you get an error saying pip ins't recognized by the OS you can either add python to your system PATH or open the command line from the python folder (shift+right click -> open command line, on windows).
 
