@@ -85,7 +85,7 @@ while True:
     unreadMessages=list(redditor.inbox.unread())
     email_notification(unreadMessages)
 
-    latest_comment = commentTree.next()
+    latest_comment = commentTree.__next__()
     current_thread = latest_comment.submission
 
     total_minutes_since_last_comment= (datetime.datetime.utcnow() - datetime.datetime.fromtimestamp(latest_comment.created_utc)).total_seconds()/60
